@@ -110,7 +110,7 @@ To update:
 3. GitHub will auto-deploy at:
 
 ```
-https://djraju500.github.io/ai-task-manager/
+https://github.com/djraju500/ai-task-manager
 ```
 
 ---
