@@ -1,6 +1,12 @@
 # AI Task Manager
 
 A privacy-focused, AI-powered Task Management System that classifies, prioritizes, and assigns tasks intelligently using NLP and ML models. Designed with features like admin-only task assignment, deadline validations, task timelines, and more.
+---
+Project 1: AI-Powered Task Management System
+
+Problem Statement: Design and develop an intelligent task management system that leverages NLP and ML techniques to
+automatically classify, prioritize, and assign tasks to users based on their behavior, deadlines, and
+workloads.
 
 ---
 
