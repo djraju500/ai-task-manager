@@ -18,7 +18,7 @@ workloads.
 - 🕒 Deadline Validation (No Past Dates)
 - 🔄 Task Status Tracking (In Progress, Completed)
 - 📊 Visual Timelines using Plotly
-- 🔐 Login & Password Reset
+- 🔐 Login & Password
 - 📁 Auto Save/Append to `task_data.csv`
 
 ---
