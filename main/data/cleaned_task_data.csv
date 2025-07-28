@@ -1,0 +1,101 @@
+task_id,description,deadline,assigned_to,status,priority,category,clean_description
+T000,Fix login issue on mobile app,2025-07-20,Charlie,Open,High,Bug,fix login issu mobil app
+T001,Page crashes when submitting form,2025-07-20,Alice,Done,Medium,Bug,page crash submit form
+T002,Fix login issue on mobile app,2025-07-28,Bob,Done,Medium,Bug,fix login issu mobil app
+T003,Create user profile section,2025-07-21,Diana,Open,Medium,Feature,creat user profil section
+T004,Client call to discuss roadmap,2025-07-19,Bob,Done,Medium,Meeting,client call discuss roadmap
+T005,Client call to discuss roadmap,2025-07-28,Charlie,Open,High,Meeting,client call discuss roadmap
+T006,Error in data export module,2025-07-18,Charlie,Done,High,Bug,error data export modul
+T007,Page crashes when submitting form,2025-07-24,Alice,In Progress,High,Bug,page crash submit form
+T008,Demo presentation preparation,2025-07-22,Charlie,Done,High,Meeting,demo present prepar
+T009,Fix login issue on mobile app,2025-07-21,Bob,In Progress,Low,Bug,fix login issu mobil app
+T010,Add dark mode to dashboard,2025-07-25,Charlie,In Progress,Medium,Feature,add dark mode dashboard
+T011,Client call to discuss roadmap,2025-07-26,Charlie,Open,Medium,Meeting,client call discuss roadmap
+T012,Page crashes when submitting form,2025-07-21,Bob,Done,Medium,Bug,page crash submit form
+T013,Implement task reminder notification,2025-07-25,Charlie,Done,Medium,Feature,implement task remind notif
+T014,Create user profile section,2025-07-26,Alice,Open,Low,Feature,creat user profil section
+T015,Sprint planning session with team,2025-07-27,Alice,Open,Low,Meeting,sprint plan session team
+T016,Client call to discuss roadmap,2025-07-21,Diana,In Progress,Low,Meeting,client call discuss roadmap
+T017,Update user guide for new features,2025-07-27,Bob,Open,Medium,Documentation,updat user guid new featur
+T018,Demo presentation preparation,2025-07-22,Diana,Done,Medium,Meeting,demo present prepar
+T019,Add dark mode to dashboard,2025-07-23,Diana,Open,Medium,Feature,add dark mode dashboard
+T020,Fix login issue on mobile app,2025-07-21,Bob,Done,Medium,Bug,fix login issu mobil app
+T021,Error in data export module,2025-07-25,Diana,Done,High,Bug,error data export modul
+T022,Page crashes when submitting form,2025-07-20,Alice,Done,Low,Bug,page crash submit form
+T023,Demo presentation preparation,2025-07-26,Alice,In Progress,Medium,Meeting,demo present prepar
+T024,Update user guide for new features,2025-07-20,Charlie,Done,Medium,Documentation,updat user guid new featur
+T025,Page crashes when submitting form,2025-07-27,Bob,Open,Medium,Bug,page crash submit form
+T026,Create user profile section,2025-07-19,Alice,Done,Medium,Feature,creat user profil section
+T027,Fix login issue on mobile app,2025-07-17,Charlie,In Progress,High,Bug,fix login issu mobil app
+T028,Create user profile section,2025-07-30,Alice,Done,Medium,Feature,creat user profil section
+T029,Page crashes when submitting form,2025-07-19,Bob,Open,Medium,Bug,page crash submit form
+T030,Implement task reminder notification,2025-07-23,Diana,Open,Low,Feature,implement task remind notif
+T031,Create user profile section,2025-07-27,Diana,Done,Medium,Feature,creat user profil section
+T032,Document testing procedures,2025-07-24,Alice,Open,High,Documentation,document test procedur
+T033,Client call to discuss roadmap,2025-07-22,Bob,Done,High,Meeting,client call discuss roadmap
+T034,Page crashes when submitting form,2025-07-21,Alice,Open,High,Bug,page crash submit form
+T035,Error in data export module,2025-07-30,Bob,In Progress,Medium,Bug,error data export modul
+T036,Create user profile section,2025-07-29,Diana,Open,Medium,Feature,creat user profil section
+T037,Update user guide for new features,2025-07-30,Alice,Done,Medium,Documentation,updat user guid new featur
+T038,Write API reference for devs,2025-07-24,Alice,Done,Medium,Documentation,write api refer dev
+T039,Fix login issue on mobile app,2025-07-25,Charlie,Open,High,Bug,fix login issu mobil app
+T040,Create user profile section,2025-07-24,Bob,In Progress,High,Feature,creat user profil section
+T041,Update user guide for new features,2025-07-18,Alice,In Progress,Low,Documentation,updat user guid new featur
+T042,Fix login issue on mobile app,2025-07-21,Alice,Open,Low,Bug,fix login issu mobil app
+T043,Add dark mode to dashboard,2025-07-25,Diana,In Progress,High,Feature,add dark mode dashboard
+T044,Update user guide for new features,2025-07-29,Diana,Open,Low,Documentation,updat user guid new featur
+T045,Sprint planning session with team,2025-07-27,Diana,Done,Low,Meeting,sprint plan session team
+T046,Update user guide for new features,2025-07-28,Charlie,Open,Low,Documentation,updat user guid new featur
+T047,Page crashes when submitting form,2025-07-26,Alice,Open,Medium,Bug,page crash submit form
+T048,Add dark mode to dashboard,2025-07-23,Alice,Open,High,Feature,add dark mode dashboard
+T049,Page crashes when submitting form,2025-07-18,Bob,In Progress,High,Bug,page crash submit form
+T050,Create user profile section,2025-07-22,Alice,Done,High,Feature,creat user profil section
+T051,Sprint planning session with team,2025-07-28,Charlie,Open,High,Meeting,sprint plan session team
+T052,Create user profile section,2025-07-21,Charlie,In Progress,Medium,Feature,creat user profil section
+T053,Fix login issue on mobile app,2025-07-24,Alice,Open,Medium,Bug,fix login issu mobil app
+T054,Client call to discuss roadmap,2025-07-17,Charlie,Open,Low,Meeting,client call discuss roadmap
+T055,Sprint planning session with team,2025-07-29,Diana,Done,Medium,Meeting,sprint plan session team
+T056,Page crashes when submitting form,2025-07-18,Charlie,Done,High,Bug,page crash submit form
+T057,Implement task reminder notification,2025-07-30,Alice,Done,Medium,Feature,implement task remind notif
+T058,Sprint planning session with team,2025-07-22,Bob,Done,Medium,Meeting,sprint plan session team
+T059,Demo presentation preparation,2025-07-24,Charlie,Open,High,Meeting,demo present prepar
+T060,Write API reference for devs,2025-07-31,Alice,In Progress,Medium,Documentation,write api refer dev
+T061,Client call to discuss roadmap,2025-07-20,Diana,Done,Medium,Meeting,client call discuss roadmap
+T062,Fix login issue on mobile app,2025-07-30,Bob,Done,High,Bug,fix login issu mobil app
+T063,Demo presentation preparation,2025-07-23,Bob,In Progress,High,Meeting,demo present prepar
+T064,Sprint planning session with team,2025-07-17,Alice,In Progress,High,Meeting,sprint plan session team
+T065,Create user profile section,2025-07-30,Charlie,Done,Low,Feature,creat user profil section
+T066,Document testing procedures,2025-07-20,Bob,Open,Low,Documentation,document test procedur
+T067,Implement task reminder notification,2025-07-31,Bob,Done,Low,Feature,implement task remind notif
+T068,Document testing procedures,2025-07-18,Bob,In Progress,High,Documentation,document test procedur
+T069,Error in data export module,2025-07-18,Alice,In Progress,High,Bug,error data export modul
+T070,Write API reference for devs,2025-07-27,Bob,Open,High,Documentation,write api refer dev
+T071,Implement task reminder notification,2025-07-26,Charlie,Open,Low,Feature,implement task remind notif
+T072,Sprint planning session with team,2025-07-21,Diana,Done,Low,Meeting,sprint plan session team
+T073,Client call to discuss roadmap,2025-07-30,Charlie,Open,Medium,Meeting,client call discuss roadmap
+T074,Client call to discuss roadmap,2025-07-30,Diana,In Progress,Medium,Meeting,client call discuss roadmap
+T075,Sprint planning session with team,2025-07-22,Alice,In Progress,Low,Meeting,sprint plan session team
+T076,Implement task reminder notification,2025-07-31,Diana,Open,Medium,Feature,implement task remind notif
+T077,Implement task reminder notification,2025-07-25,Alice,Done,Low,Feature,implement task remind notif
+T078,Demo presentation preparation,2025-07-18,Alice,Done,Low,Meeting,demo present prepar
+T079,Demo presentation preparation,2025-07-25,Charlie,In Progress,Medium,Meeting,demo present prepar
+T080,Add dark mode to dashboard,2025-07-25,Diana,Done,Medium,Feature,add dark mode dashboard
+T081,Create user profile section,2025-07-22,Charlie,In Progress,Medium,Feature,creat user profil section
+T082,Error in data export module,2025-07-27,Bob,In Progress,Medium,Bug,error data export modul
+T083,Sprint planning session with team,2025-07-24,Diana,Done,High,Meeting,sprint plan session team
+T084,Document testing procedures,2025-07-29,Alice,In Progress,Medium,Documentation,document test procedur
+T085,Client call to discuss roadmap,2025-07-18,Bob,Done,Medium,Meeting,client call discuss roadmap
+T086,Add dark mode to dashboard,2025-07-31,Alice,Open,Low,Feature,add dark mode dashboard
+T087,Error in data export module,2025-07-25,Bob,Done,Medium,Bug,error data export modul
+T088,Write API reference for devs,2025-07-28,Bob,Done,Medium,Documentation,write api refer dev
+T089,Error in data export module,2025-07-28,Bob,Done,Medium,Bug,error data export modul
+T090,Page crashes when submitting form,2025-07-28,Alice,In Progress,High,Bug,page crash submit form
+T091,Document testing procedures,2025-07-23,Charlie,In Progress,Medium,Documentation,document test procedur
+T092,Document testing procedures,2025-07-24,Bob,Done,Low,Documentation,document test procedur
+T093,Write API reference for devs,2025-07-19,Bob,Done,High,Documentation,write api refer dev
+T094,Document testing procedures,2025-07-28,Charlie,In Progress,High,Documentation,document test procedur
+T095,Client call to discuss roadmap,2025-07-27,Charlie,In Progress,Low,Meeting,client call discuss roadmap
+T096,Fix login issue on mobile app,2025-07-29,Bob,In Progress,Medium,Bug,fix login issu mobil app
+T097,Add dark mode to dashboard,2025-07-25,Diana,In Progress,Medium,Feature,add dark mode dashboard
+T098,Update user guide for new features,2025-07-28,Diana,In Progress,Low,Documentation,updat user guid new featur
+T099,Page crashes when submitting form,2025-07-25,Diana,Open,Low,Bug,page crash submit form

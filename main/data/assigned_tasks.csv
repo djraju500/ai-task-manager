@@ -1,0 +1,101 @@
+task_id,description,deadline,assigned_to,status,priority,category,combined_text,predicted_priority
+T000,Fix login issue on mobile app,2025-07-20,Diana,Open,High,Bug,Fix login issue on mobile app Bug,Medium
+T001,Page crashes when submitting form,2025-07-20,Diana,Done,Medium,Bug,Page crashes when submitting form Bug,Medium
+T002,Fix login issue on mobile app,2025-07-28,Diana,Done,Medium,Bug,Fix login issue on mobile app Bug,Medium
+T003,Create user profile section,2025-07-21,Diana,Open,Medium,Feature,Create user profile section Feature,Medium
+T004,Client call to discuss roadmap,2025-07-19,Bob,Done,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T005,Client call to discuss roadmap,2025-07-28,Diana,Open,High,Meeting,Client call to discuss roadmap Meeting,Medium
+T006,Error in data export module,2025-07-18,Alice,Done,High,Bug,Error in data export module Bug,Medium
+T007,Page crashes when submitting form,2025-07-24,Bob,In Progress,High,Bug,Page crashes when submitting form Bug,Medium
+T008,Demo presentation preparation,2025-07-22,Charlie,Done,High,Meeting,Demo presentation preparation Meeting,Medium
+T009,Fix login issue on mobile app,2025-07-21,Diana,In Progress,Low,Bug,Fix login issue on mobile app Bug,Medium
+T010,Add dark mode to dashboard,2025-07-25,Alice,In Progress,Medium,Feature,Add dark mode to dashboard Feature,Medium
+T011,Client call to discuss roadmap,2025-07-26,Bob,Open,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T012,Page crashes when submitting form,2025-07-21,Charlie,Done,Medium,Bug,Page crashes when submitting form Bug,Medium
+T013,Implement task reminder notification,2025-07-25,Diana,Done,Medium,Feature,Implement task reminder notification Feature,Low
+T014,Create user profile section,2025-07-26,Alice,Open,Low,Feature,Create user profile section Feature,Medium
+T015,Sprint planning session with team,2025-07-27,Bob,Open,Low,Meeting,Sprint planning session with team Meeting,Medium
+T016,Client call to discuss roadmap,2025-07-21,Charlie,In Progress,Low,Meeting,Client call to discuss roadmap Meeting,Medium
+T017,Update user guide for new features,2025-07-27,Diana,Open,Medium,Documentation,Update user guide for new features Documentation,Medium
+T018,Demo presentation preparation,2025-07-22,Alice,Done,Medium,Meeting,Demo presentation preparation Meeting,Medium
+T019,Add dark mode to dashboard,2025-07-23,Bob,Open,Medium,Feature,Add dark mode to dashboard Feature,Medium
+T020,Fix login issue on mobile app,2025-07-21,Charlie,Done,Medium,Bug,Fix login issue on mobile app Bug,Medium
+T021,Error in data export module,2025-07-25,Diana,Done,High,Bug,Error in data export module Bug,Medium
+T022,Page crashes when submitting form,2025-07-20,Alice,Done,Low,Bug,Page crashes when submitting form Bug,Medium
+T023,Demo presentation preparation,2025-07-26,Bob,In Progress,Medium,Meeting,Demo presentation preparation Meeting,Medium
+T024,Update user guide for new features,2025-07-20,Charlie,Done,Medium,Documentation,Update user guide for new features Documentation,Medium
+T025,Page crashes when submitting form,2025-07-27,Diana,Open,Medium,Bug,Page crashes when submitting form Bug,Medium
+T026,Create user profile section,2025-07-19,Alice,Done,Medium,Feature,Create user profile section Feature,Medium
+T027,Fix login issue on mobile app,2025-07-17,Bob,In Progress,High,Bug,Fix login issue on mobile app Bug,Medium
+T028,Create user profile section,2025-07-30,Charlie,Done,Medium,Feature,Create user profile section Feature,Medium
+T029,Page crashes when submitting form,2025-07-19,Diana,Open,Medium,Bug,Page crashes when submitting form Bug,Medium
+T030,Implement task reminder notification,2025-07-23,Alice,Open,Low,Feature,Implement task reminder notification Feature,Low
+T031,Create user profile section,2025-07-27,Bob,Done,Medium,Feature,Create user profile section Feature,Medium
+T032,Document testing procedures,2025-07-24,Charlie,Open,High,Documentation,Document testing procedures Documentation,Medium
+T033,Client call to discuss roadmap,2025-07-22,Diana,Done,High,Meeting,Client call to discuss roadmap Meeting,Medium
+T034,Page crashes when submitting form,2025-07-21,Alice,Open,High,Bug,Page crashes when submitting form Bug,Medium
+T035,Error in data export module,2025-07-30,Bob,In Progress,Medium,Bug,Error in data export module Bug,Medium
+T036,Create user profile section,2025-07-29,Charlie,Open,Medium,Feature,Create user profile section Feature,Medium
+T037,Update user guide for new features,2025-07-30,Diana,Done,Medium,Documentation,Update user guide for new features Documentation,Medium
+T038,Write API reference for devs,2025-07-24,Alice,Done,Medium,Documentation,Write API reference for devs Documentation,Medium
+T039,Fix login issue on mobile app,2025-07-25,Bob,Open,High,Bug,Fix login issue on mobile app Bug,Medium
+T040,Create user profile section,2025-07-24,Charlie,In Progress,High,Feature,Create user profile section Feature,Medium
+T041,Update user guide for new features,2025-07-18,Diana,In Progress,Low,Documentation,Update user guide for new features Documentation,Medium
+T042,Fix login issue on mobile app,2025-07-21,Alice,Open,Low,Bug,Fix login issue on mobile app Bug,Medium
+T043,Add dark mode to dashboard,2025-07-25,Bob,In Progress,High,Feature,Add dark mode to dashboard Feature,Medium
+T044,Update user guide for new features,2025-07-29,Charlie,Open,Low,Documentation,Update user guide for new features Documentation,Medium
+T045,Sprint planning session with team,2025-07-27,Diana,Done,Low,Meeting,Sprint planning session with team Meeting,Medium
+T046,Update user guide for new features,2025-07-28,Alice,Open,Low,Documentation,Update user guide for new features Documentation,Medium
+T047,Page crashes when submitting form,2025-07-26,Bob,Open,Medium,Bug,Page crashes when submitting form Bug,Medium
+T048,Add dark mode to dashboard,2025-07-23,Charlie,Open,High,Feature,Add dark mode to dashboard Feature,Medium
+T049,Page crashes when submitting form,2025-07-18,Diana,In Progress,High,Bug,Page crashes when submitting form Bug,Medium
+T050,Create user profile section,2025-07-22,Alice,Done,High,Feature,Create user profile section Feature,Medium
+T051,Sprint planning session with team,2025-07-28,Bob,Open,High,Meeting,Sprint planning session with team Meeting,Medium
+T052,Create user profile section,2025-07-21,Charlie,In Progress,Medium,Feature,Create user profile section Feature,Medium
+T053,Fix login issue on mobile app,2025-07-24,Diana,Open,Medium,Bug,Fix login issue on mobile app Bug,Medium
+T054,Client call to discuss roadmap,2025-07-17,Alice,Open,Low,Meeting,Client call to discuss roadmap Meeting,Medium
+T055,Sprint planning session with team,2025-07-29,Bob,Done,Medium,Meeting,Sprint planning session with team Meeting,Medium
+T056,Page crashes when submitting form,2025-07-18,Charlie,Done,High,Bug,Page crashes when submitting form Bug,Medium
+T057,Implement task reminder notification,2025-07-30,Diana,Done,Medium,Feature,Implement task reminder notification Feature,Low
+T058,Sprint planning session with team,2025-07-22,Alice,Done,Medium,Meeting,Sprint planning session with team Meeting,Medium
+T059,Demo presentation preparation,2025-07-24,Bob,Open,High,Meeting,Demo presentation preparation Meeting,Medium
+T060,Write API reference for devs,2025-07-31,Charlie,In Progress,Medium,Documentation,Write API reference for devs Documentation,Medium
+T061,Client call to discuss roadmap,2025-07-20,Diana,Done,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T062,Fix login issue on mobile app,2025-07-30,Alice,Done,High,Bug,Fix login issue on mobile app Bug,Medium
+T063,Demo presentation preparation,2025-07-23,Bob,In Progress,High,Meeting,Demo presentation preparation Meeting,Medium
+T064,Sprint planning session with team,2025-07-17,Charlie,In Progress,High,Meeting,Sprint planning session with team Meeting,Medium
+T065,Create user profile section,2025-07-30,Diana,Done,Low,Feature,Create user profile section Feature,Medium
+T066,Document testing procedures,2025-07-20,Alice,Open,Low,Documentation,Document testing procedures Documentation,Medium
+T067,Implement task reminder notification,2025-07-31,Bob,Done,Low,Feature,Implement task reminder notification Feature,Low
+T068,Document testing procedures,2025-07-18,Charlie,In Progress,High,Documentation,Document testing procedures Documentation,Medium
+T069,Error in data export module,2025-07-18,Diana,In Progress,High,Bug,Error in data export module Bug,Medium
+T070,Write API reference for devs,2025-07-27,Alice,Open,High,Documentation,Write API reference for devs Documentation,Medium
+T071,Implement task reminder notification,2025-07-26,Bob,Open,Low,Feature,Implement task reminder notification Feature,Low
+T072,Sprint planning session with team,2025-07-21,Charlie,Done,Low,Meeting,Sprint planning session with team Meeting,Medium
+T073,Client call to discuss roadmap,2025-07-30,Diana,Open,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T074,Client call to discuss roadmap,2025-07-30,Alice,In Progress,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T075,Sprint planning session with team,2025-07-22,Bob,In Progress,Low,Meeting,Sprint planning session with team Meeting,Medium
+T076,Implement task reminder notification,2025-07-31,Charlie,Open,Medium,Feature,Implement task reminder notification Feature,Low
+T077,Implement task reminder notification,2025-07-25,Diana,Done,Low,Feature,Implement task reminder notification Feature,Low
+T078,Demo presentation preparation,2025-07-18,Alice,Done,Low,Meeting,Demo presentation preparation Meeting,Medium
+T079,Demo presentation preparation,2025-07-25,Bob,In Progress,Medium,Meeting,Demo presentation preparation Meeting,Medium
+T080,Add dark mode to dashboard,2025-07-25,Charlie,Done,Medium,Feature,Add dark mode to dashboard Feature,Medium
+T081,Create user profile section,2025-07-22,Diana,In Progress,Medium,Feature,Create user profile section Feature,Medium
+T082,Error in data export module,2025-07-27,Alice,In Progress,Medium,Bug,Error in data export module Bug,Medium
+T083,Sprint planning session with team,2025-07-24,Bob,Done,High,Meeting,Sprint planning session with team Meeting,Medium
+T084,Document testing procedures,2025-07-29,Charlie,In Progress,Medium,Documentation,Document testing procedures Documentation,Medium
+T085,Client call to discuss roadmap,2025-07-18,Diana,Done,Medium,Meeting,Client call to discuss roadmap Meeting,Medium
+T086,Add dark mode to dashboard,2025-07-31,Alice,Open,Low,Feature,Add dark mode to dashboard Feature,Medium
+T087,Error in data export module,2025-07-25,Bob,Done,Medium,Bug,Error in data export module Bug,Medium
+T088,Write API reference for devs,2025-07-28,Charlie,Done,Medium,Documentation,Write API reference for devs Documentation,Medium
+T089,Error in data export module,2025-07-28,Diana,Done,Medium,Bug,Error in data export module Bug,Medium
+T090,Page crashes when submitting form,2025-07-28,Alice,In Progress,High,Bug,Page crashes when submitting form Bug,Medium
+T091,Document testing procedures,2025-07-23,Bob,In Progress,Medium,Documentation,Document testing procedures Documentation,Medium
+T092,Document testing procedures,2025-07-24,Charlie,Done,Low,Documentation,Document testing procedures Documentation,Medium
+T093,Write API reference for devs,2025-07-19,Diana,Done,High,Documentation,Write API reference for devs Documentation,Medium
+T094,Document testing procedures,2025-07-28,Alice,In Progress,High,Documentation,Document testing procedures Documentation,Medium
+T095,Client call to discuss roadmap,2025-07-27,Bob,In Progress,Low,Meeting,Client call to discuss roadmap Meeting,Medium
+T096,Fix login issue on mobile app,2025-07-29,Charlie,In Progress,Medium,Bug,Fix login issue on mobile app Bug,Medium
+T097,Add dark mode to dashboard,2025-07-25,Diana,In Progress,Medium,Feature,Add dark mode to dashboard Feature,Medium
+T098,Update user guide for new features,2025-07-28,Alice,In Progress,Low,Documentation,Update user guide for new features Documentation,Medium
+T099,Page crashes when submitting form,2025-07-25,Bob,Open,Low,Bug,Page crashes when submitting form Bug,Medium
