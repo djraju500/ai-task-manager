@@ -71,7 +71,7 @@ ai_task_manager/
 │      |     ├── Charlie_report.pdf
 │      |     └── Diana_report.pdf
 │      └── final_report.pdf
-│
+├── requirements.txt
 └── README.md
 ```
 
