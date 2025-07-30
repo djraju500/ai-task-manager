@@ -55,9 +55,13 @@ def generate_task_id(tasks_df):
     if tasks_df.empty:
         return "T000"
     else:
-        last_id = tasks_df["task_id"].iloc[-1]
-        num = int(last_id[1:])
+        last_id = str(tasks_df["task_id"].iloc[-1])  # Convert to string safely
+        if last_id.startswith("T") and last_id[1:].isdigit():
+            num = int(last_id[1:])
+        else:
+            num = 0  # fallback if ID format is unexpected
         return f"T{num+1:03d}"
+
 
 # ------------------------- UI Components -------------------------
 
