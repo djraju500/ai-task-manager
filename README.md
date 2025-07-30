@@ -80,9 +80,21 @@ ai_task_manager/
 ## 📦 Installation
 
 ```bash
+# 1. Clone your repository
 git clone https://github.com/djraju500/ai-task-manager.git
+
+# 2. Navigate into the project directory
 cd ai-task-manager
+
+# 3. Create and activate a virtual environment (optional but recommended)
+py -m venv venv
+venv\Scripts\activate      # On Windows
+# source venv/bin/activate # On macOS/Linux
+
+# 4. Install all required packages
 pip install -r requirements.txt
+
+# 5. Run the Streamlit app
 streamlit run notebooks/08_task_assignment_app.py
 ```
 
