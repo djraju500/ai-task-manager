@@ -1,13 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[19]:
-
-
 import streamlit as st
 import pandas as pd
 import os
-from datetime import datetime, date
+from datetime import date
 
 # Paths
 USERS_FILE = "data/users.csv"
@@ -21,8 +18,7 @@ os.makedirs("data", exist_ok=True)
 def load_users():
     if os.path.exists(USERS_FILE):
         return pd.read_csv(USERS_FILE)
-    else:
-        return pd.DataFrame(columns=["username", "password", "role"])
+    return pd.DataFrame(columns=["username", "password", "role"])
 
 def save_users(users):
     users.to_csv(USERS_FILE, index=False)
@@ -30,8 +26,7 @@ def save_users(users):
 def load_tasks():
     if os.path.exists(TASKS_FILE):
         return pd.read_csv(TASKS_FILE)
-    else:
-        return pd.DataFrame(columns=["task_id", "description", "deadline", "assigned_to", "status", "priority", "category"])
+    return pd.DataFrame(columns=["task_id", "description", "deadline", "assigned_to", "status", "priority", "category"])
 
 def save_tasks(tasks):
     tasks.to_csv(TASKS_FILE, index=False)
@@ -40,28 +35,22 @@ def register_user(username, password, role):
     users = load_users()
     if username in users['username'].values:
         return False
-    users = pd.concat([users, pd.DataFrame([[username, password, role]], columns=users.columns)], ignore_index=True)
+    new_user = pd.DataFrame([[username, password, role]], columns=users.columns)
+    users = pd.concat([users, new_user], ignore_index=True)
     save_users(users)
     return True
 
 def authenticate_user(username, password):
     users = load_users()
     user = users[(users['username'] == username) & (users['password'] == password)]
-    if not user.empty:
-        return user.iloc[0].to_dict()
-    return None
+    return user.iloc[0].to_dict() if not user.empty else None
 
 def generate_task_id(tasks_df):
     if tasks_df.empty:
         return "T000"
-    else:
-        last_id = str(tasks_df["task_id"].iloc[-1])  # Convert to string safely
-        if last_id.startswith("T") and last_id[1:].isdigit():
-            num = int(last_id[1:])
-        else:
-            num = 0  # fallback if ID format is unexpected
-        return f"T{num+1:03d}"
-
+    last_id = str(tasks_df["task_id"].iloc[-1])
+    num = int(last_id[1:]) if last_id.startswith("T") and last_id[1:].isdigit() else 0
+    return f"T{num+1:03d}"
 
 # ------------------------- UI Components -------------------------
 
@@ -91,12 +80,12 @@ def show_login():
 
 def show_task_assignment(user):
     st.subheader("Assign Task (Admin Only)")
-    tasks_df = load_tasks()
-    users_df = load_users()
-
-    if user["role"] != "admin":
+    if user.get("role") != "admin":
         st.warning("Only admin can assign tasks.")
         return
+
+    tasks_df = load_tasks()
+    users_df = load_users()
 
     task_id = generate_task_id(tasks_df)
     description = st.text_area("Task Description")
@@ -113,7 +102,7 @@ def show_task_assignment(user):
     category = st.selectbox("Category", ["Bug", "Feature", "Improvement", "Research", "Other"])
 
     if st.button("Assign Task"):
-        new_task = pd.DataFrame([[task_id, description, deadline.strftime("%Y-%m-%d"), assigned_to, status, priority, category, '','','']],
+        new_task = pd.DataFrame([[task_id, description, deadline.strftime("%Y-%m-%d"), assigned_to, status, priority, category]],
                                 columns=tasks_df.columns)
         tasks_df = pd.concat([tasks_df, new_task], ignore_index=True)
         save_tasks(tasks_df)
@@ -122,17 +111,21 @@ def show_task_assignment(user):
 def show_user_tasks(user):
     st.subheader("My Tasks")
     tasks_df = load_tasks()
-    user_tasks = tasks_df[tasks_df["assigned_to"] == user["username"]]
-    if not user_tasks.empty:
-        st.dataframe(user_tasks)
+    if user:
+        user_tasks = tasks_df[tasks_df["assigned_to"] == user.get("username")]
+        if not user_tasks.empty:
+            st.dataframe(user_tasks)
+        else:
+            st.info("No tasks assigned to you yet.")
     else:
-        st.info("No tasks assigned to you yet.")
+        st.info("Please log in to view your tasks.")
 
 # ------------------------- Main App -------------------------
 
 def main():
     st.title("🧠 AI Task Management System")
 
+    # Initialize state
     if "logged_in" not in st.session_state:
         st.session_state.logged_in = False
         st.session_state.user = None
@@ -145,28 +138,29 @@ def main():
         elif menu == "Register":
             show_registration()
     else:
-        st.sidebar.success(f"Logged in as: {st.session_state.user['username']}")
+        user = st.session_state.get("user")
+        st.sidebar.success(f"Logged in as: {user['username']}")
         if st.sidebar.button("Logout"):
             st.session_state.logged_in = False
             st.session_state.user = None
-            st.experimental_rerun()
+            try:
+                st.experimental_rerun()
+            except AttributeError:
+                st.write("Rerun not supported in this version.")
 
-        if st.session_state.user["role"] == "admin":
-            show_task_assignment(st.session_state.user)
-        show_user_tasks(st.session_state.user)
+        if user and user.get("role") == "admin":
+            show_task_assignment(user)
+        show_user_tasks(user)
+
+    # Trigger manual rerun
+    if st.button("Refresh View"):
+        st.session_state.refresh_view = True
+
+    if st.session_state.get("refresh_view", False):
+        try:
+            st.experimental_rerun()
+        except AttributeError:
+            st.write("Rerun not supported in this version.")
 
 if __name__ == "__main__":
     main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
