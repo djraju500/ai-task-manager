@@ -113,9 +113,8 @@ def show_task_assignment(user):
     category = st.selectbox("Category", ["Bug", "Feature", "Improvement", "Research", "Other"])
 
     if st.button("Assign Task"):
-        new_task = pd.DataFrame([[task_id, description, deadline.strftime("%Y-%m-%d"), assigned_to, status, priority, category, '', '', '']],
+        new_task = pd.DataFrame([[task_id, description, deadline.strftime("%Y-%m-%d"), assigned_to, status, priority, category, '','','']],
                                 columns=tasks_df.columns)
-
         tasks_df = pd.concat([tasks_df, new_task], ignore_index=True)
         save_tasks(tasks_df)
         st.success(f"Task {task_id} assigned to {assigned_to}.")
